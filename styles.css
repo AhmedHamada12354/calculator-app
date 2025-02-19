@@ -1,0 +1,112 @@
+* {
+	font-family: "league spartan";
+	color: white;
+	transition: 0.3s;
+}
+
+body {
+	background-color: #3a4764;
+}
+
+main {
+	width: 500px;
+	margin: 5% auto;
+}
+
+header, .themes-container, .themes-changer-range, .themes-title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.themes-container {
+	justify-content: center;
+}
+
+.theme-title {
+	font-variant: small-caps;
+	margin-right: 20px;
+	font-size: 20px;
+	margin-bottom: -10px;
+}
+
+.themes-changer-range {
+	background-color: #232c43;
+	padding: 5px;
+	border-radius: 20px;
+	gap: 3px;
+}
+
+#position1-parent, #position2-parent, #position3-parent {
+	width: 15px;
+	height: 15px;
+}
+
+#position1, #position2, #position3 {
+	width: 15px;
+	height: 15px;
+	background-color: #d03f2f;
+	border-radius: 50%;
+}
+
+.result-container {
+	height: 100px;
+	padding: 10px;
+	background-color: #182034;
+	border-radius: 10px;
+	font-size: 30px;
+	text-align: right;
+	margin-bottom: 20px;
+}
+
+#result {
+	margin-right: 20px;
+}
+
+.buttons {
+	background-color: #232c43;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+table {
+	width: 100%;
+	border-spacing: 20px;
+}
+
+button {
+	width: 90px;
+	height: 55px;
+	background-color: #eae3dc;
+	font-size: 30px;
+	border-radius: 10px;
+	color: #444b5a;
+	font-weight: 800;
+	border: none;
+	box-shadow: 0px 4px 0px #b4a597;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#button-reset, #button-equal {
+	width: 100%;
+}
+
+#button-reset, #button-del, #button-equal {
+	text-transform: uppercase;
+	color: white;
+	background-color: #637097;
+	box-shadow: 0px 4px 0px #404e72;
+	font-weight: 600;
+}
+
+#button-equal {
+	background-color: #d03f2f;
+	box-shadow: 0px 4px 0px #93261a;
+}
+
+.hide {
+	visibility: hidden;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator app</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1 class="title">calc</h1>
+        <section class="themes-container">
+          <span class="theme-title">theme</span>
+          <div class="change-theme">
+            <div class="themes-title">
+              <span>1</span>
+              <span>2</span>
+              <span>3</span>
+            </div>
+            <div class="themes-changer-range" id="themes-container-id">
+              <div id="position1-parent">
+                <div id="position1"></div>
+              </div>
+              <div id="position2-parent">
+                <div id="position2"></div>
+              </div>
+              <div id="position3-parent">
+                <div id="position3"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </header>
+
+      <section class="result-container">
+        <h1 id="result">0</h1>
+      </section>
+
+      <section class="buttons">
+        <table>
+          <tr>
+            <td><button id="button-7">7</button></td>
+            <td><button id="button-8">8</button></td>
+            <td><button id="button-9">9</button></td>
+            <td><button id="button-del">del</button></td>
+          </tr>
+          <tr>
+            <td><button id="button-4">4</button></td>
+            <td><button id="button-5">5</button></td>
+            <td><button id="button-6">6</button></td>
+            <td><button id="button-add">+</button></td>
+          </tr>
+          <tr>
+            <td><button id="button-1">1</button></td>
+            <td><button id="button-2">2</button></td>
+            <td><button id="button-3">3</button></td>
+            <td><button id="button-sub">-</button></td>
+          </tr>
+          <tr>
+            <td><button id="button-dot">.</button></td>
+            <td><button id="button-0">0</button></td>
+            <td><button id="button-div">/</button></td>
+            <td><button id="button-mul">x</button></td>
+          </tr>
+          <tr>
+            <td colspan="2"><button id="button-reset">reset</button></td>
+            <td colspan="2"><button id="button-equal">=</button></td>
+          </tr>
+        </table>
+      </section>
+    </main>
+    <script src="scripts.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
